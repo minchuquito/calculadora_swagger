@@ -19,10 +19,18 @@ Calculadora API con Python y Swagger
 
 Post:
 Payload:{"calculo": "string_con_calculo"}, retorna el resultado de ser correcta la expresion.
+![image](https://user-images.githubusercontent.com/6844399/111678346-f235ff00-87fe-11eb-88a1-0192ccb3587e.png)
+![image](https://user-images.githubusercontent.com/6844399/111678393-00841b00-87ff-11eb-8345-bdeadd4e3c4c.png)
 
 Get: (se utiliza filterColumns por URL)
   1 - vacio, trae todos los string persistidos con su resultado, string de calculo e Id para identificarlo.
   2 - {"id": "#"} trae un string de calculo ya persistido en base o bien un mensaje de no existe.
+  
+![image](https://user-images.githubusercontent.com/6844399/111678478-198ccc00-87ff-11eb-89fe-2fc9749c21a3.png)
+![image](https://user-images.githubusercontent.com/6844399/111678562-32957d00-87ff-11eb-8d62-65a6a215fbc0.png)
+
+con el filter vacio:
+![image](https://user-images.githubusercontent.com/6844399/111678631-480aa700-87ff-11eb-8c7f-973efc2e8aa8.png)
 
 
 Datos de acceso a Postgres:
